@@ -1,4 +1,4 @@
-% explanatory script of the lagrange point functions in this directory
+% explanatory script of the Lagrange point functions in this directory
 % earth-moon system
 % the moon is about 1/81.3 times the mass of the earth. In normalized
 % coordinates (earth-moon distance is 1.0):
@@ -13,7 +13,7 @@ hold on
 plot(xz,yz, 'r+')
 axis equal
 grid
-title('earth(m0)-moon(m1) lagrange points (m0/m1 = 81.3)')
+title('Earth(m0)-Moon(m1) Lagrange points (m0/m1 = 81.3)')
 xlabel('normalized system x (x0 = 0, x1 = 1)')
 ylabel('normalized system y (y0 = 0, y1 = 0)')
 legend({'contours of $\log{|\vec{f}|}$', 'zeros of $\vec{f}$'}, 'Interpreter', 'latex')
@@ -31,7 +31,7 @@ hold on
 plot(xz,yz, 'r+')
 axis equal
 grid
-title('sun(m0)-earth(m1) lagrange points (m0/m1 = 330000)')
+title('Sun(m0)-Earth(m1) Lagrange points (m0/m1 = 330000)')
 xlabel('normalized system x (x0 = 0, x1 = 1)')
 ylabel('normalized system y (y0 = 0, y1 = 0)')
 legend({'contours of $\log{|\vec{f}|}$', 'zeros of $\vec{f}$'}, 'Interpreter', 'latex')
@@ -43,7 +43,7 @@ axis([0.98 1.02 -0.02 0.02])
 plot(xz,yz, 'r+')
 axis([0.98 1.02 -0.02 0.02])
 grid
-title('sun(m0)-earth(m1) lagrange points (m0/m1 = 330000)')
+title('Sun(m0)-Earth(m1) Lagrange points (m0/m1 = 330000)')
 xlabel('normalized system x (x0 = 0, x1 = 1)')
 ylabel('normalized system y (y0 = 0, y1 = 0)')
 legend({'contours of $\log{|\vec{f}|}$', 'zeros of $\vec{f}$'}, 'Interpreter', 'latex')
@@ -60,7 +60,7 @@ hold on
 plot(xz,yz, 'r+')
 axis equal
 grid
-title('fictitious system 1 lagrange points (m0/m1 = 5)')
+title('Fictitious system 1 Lagrange points (m0/m1 = 5)')
 xlabel('normalized system x (x0 = 0, x1 = 1)')
 ylabel('normalized system y (y0 = 0, y1 = 0)')
 legend({'contours of $\log{|\vec{f}|}$', 'zeros of $\vec{f}$'}, 'Interpreter', 'latex')
@@ -77,7 +77,7 @@ hold on
 plot(xz,yz, 'r+')
 axis equal
 grid
-title('fictitious system 2 lagrange points (m0/m1 = 1)')
+title('Fictitious system 2 Lagrange points (m0/m1 = 1)')
 xlabel('normalized system x (x0 = 0, x1 = 1)')
 ylabel('normalized system y (y0 = 0, y1 = 0)')
 legend({'contours of $\log{|\vec{f}|}$', 'zeros of $\vec{f}$'}, 'Interpreter', 'latex')
