@@ -1,1 +1,2 @@
 # LagrangePoints
+See the wiki!
