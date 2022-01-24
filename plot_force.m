@@ -1,4 +1,4 @@
-function [x, y, f_x, f_y, f_amp] = plot_force(r0, r1, n, r_range)
+function [x, y, f_x, f_y, f_amp] = plot_force(r0, r1, n, r_range, n_contours)
 % compute and plot the force on a massless particle in uniform cicular motion
 % in the gravity field of two orbiting masses (i.e. orbiting about the COM 
 % just as the two masses are.
@@ -27,5 +27,5 @@ f_y = y - r1*(r0+r1)^2 * r_r0_y ./denom_0 - r0*(r0+r1)^2 * r_r1_y ./ denom_1;
 f_amp = sqrt(f_x.*f_x + f_y.*f_y);
 % return m0-centric coordinates/plot
 x = x + r0;
-contour(x,y,log10(f_amp));
+contour(x,y,log10(f_amp), n_contours);
 end

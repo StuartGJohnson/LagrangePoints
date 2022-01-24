@@ -11,11 +11,11 @@ y_minus = -y_plus;
 eps_root = 1000*double(eps('single'));
 % we have roots between and on either side of our 2-body system
 % these are numbered by the lagrange point index
-root_interval3 = [-3*R -r0-eps_root];
+root_interval3 = [-2*R-r0 -r0-eps_root];
 x3 = fzero(@fx, root_interval3);
 root_interval1 = [-r0+eps_root r1-eps_root];
 x1 = fzero(@fx, root_interval1);
-root_interval2 = [r1+eps_root 3*R];
+root_interval2 = [r1+eps_root 2*R+r1];
 x2 = fzero(@fx, root_interval2);
 % pile up these estimates, in order of their lagrange index
 x = [x1 x2 x3 x_plus_minus x_plus_minus];
