@@ -1,7 +1,7 @@
 function [x, y] = solve_force(r0, r1)
-% solve for stationary points of the force on a masless particle
+% solve for L1, L2 and L3 stationary points of the force on a massless particle
 % in uniform circular motion about the center of mass of the two-
-% particle system at [-r0, 0], [r1, 0] at t=0. 
+% particle system at [-r0, 0], [r1, 0]. 
 R = r0+r1; R2 = R*R;
 % solutions not on the x axis
 x_plus_minus = -r0+R/2;
