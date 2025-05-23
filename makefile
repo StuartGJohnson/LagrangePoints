@@ -1,6 +1,6 @@
 # Directory variables
 WRITEUP_DIR := writeup
-WEBSITE_DIR := website
+WEBSITE_DIR := docs 
 FIGURES_DIR := figures
 VIDEO_DIR := videos
 
