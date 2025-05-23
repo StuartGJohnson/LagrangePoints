@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: lagrange_points.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--empty year in Manley
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            603 strings with 5059 characters,
+and the built_in function-call counts, 626 in all, are:
+= -- 51
+> -- 20
+< -- 2
++ -- 8
+- -- 6
+* -- 32
+:= -- 99
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 5
+duplicate$ -- 30
+empty$ -- 65
+format.name$ -- 8
+if$ -- 128
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 18
+num.names$ -- 8
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 4
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 1
+while$ -- 6
+width$ -- 0
+write$ -- 30
+(There was 1 warning)

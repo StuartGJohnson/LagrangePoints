@@ -16,9 +16,9 @@ r0= 1/m0_over_m1_p1; r1 = m0_over_m1/m0_over_m1_p1;
 xz = xz + r0
 summary_table=cell(2,8);
 summary_table{1,1} = str_pair;
-summary_table{2,1} = '';
+summary_table{2,1} = str_pair;
 summary_table{1,2} = m0_over_m1;
-summary_table{2,2} = '';
+summary_table{2,2} = m0_over_m1;
 summary_table{1,3} = 'x';
 summary_table{2,3} = 'y';
 for j=1:length(xz)
@@ -34,7 +34,7 @@ if enforce_range
     axis(xy_range);
 end
 hold on
-plot(xz,yz, 'r+')
+plot(xz,yz, 'r+', 'LineWidth', 2)
 if enforce_range
     axis(xy_range);
 else

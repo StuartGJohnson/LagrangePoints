@@ -34,5 +34,14 @@ summary_table = vertcat(summary_table, st_chunk);
 
 
 % and the summary table
-HTMLtable(summary_table,'ShowOutput',true,'ColumnNames',{'system', 'm0/m1', 'coord','L1','L2','L3','L4','L5'},'OutputToFile',true,'FileName','lagrange_table');
+my_table=cell2table(summary_table,'VariableNames',{'system', 'm0/m1', 'coord','L1','L2','L3','L4','L5'})
+% this uses table2latex:
+% ----------------------------------------------------------------------- %
+%   Version: 1.1                                                          %
+%   Author:  Victor Martinez Cagigal                                      %
+%   Date:    09/10/2018                                                   %
+%   E-mail:  vicmarcag (at) gmail (dot) com                               %
+% ----------------------------------------------------------------------- %
+table2latex(my_table,'latex_table');
+%HTMLtable(summary_table,'ShowOutput',true,'ColumnNames',{'system', 'm0/m1', 'coord','L1','L2','L3','L4','L5'},'OutputToFile',true,'FileName','lagrange_table');
 
